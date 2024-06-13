@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar{
+    height: 100px;
+    background: white;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+.logo{
+    flex: 20%;
+    margin-left: 10%;
+    text-align: left;
+}
+
+.logo h1{
+    font-family: "lobster", cursive;
+    color: #180F4A;
+    font-size: 34px;
+}
+
+.menu{
+    flex: 70%;
+    text-align: right;
+    padding: 20px;
+}
+
+.menu a{
+    color: #180F4A;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+}
+
+.menu a:hover{
+    color: #FF297B;
+    border-top: 4px solid #180F4A;
+}
+
+#botao{
+    background: #180F4A;
+    padding: 18px 25px;
+    color: white;
+    border-radius: 5px;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+
+#botao:hover{
+    border: none;
+    background: #FF297B;
+}
+
+.header{
+    display: flex;
+    flex-flow: row wrap;
+    height: 600px;
+    background: white;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.headline{
+    margin-left: 10%;
+    flex: 40%;
+}
+
+.headline h2{
+    font-size: 20px;
+    font-weight: 900;
+    color: #180F4A;
+    padding: 0;
+    margin: 0;
+}
+
+.headline p{
+    color: gray;
+    text-align: left;
+}
+
+.contact-btn{
+    display: inline-block;
+    background: #FF297B;
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.contact-btn:hover{
+    background: #180F4A;
+
+}
+
+.img-headline{
+    margin-right: 10%;
+    flex: 40%;
+    text-align: center;
+}
+
+.section{
+    margin-top: 80px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    padding: 5%;
+}
+
+.section h2{
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    font-family: "lobster", cursive;
+    color: #180F4A;
+    font-weight: bold;
+}
+
+.servicos{
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.card{
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border: 1px solid #FF297B;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card:hover{
+    background: #FF297B;
+    color: white;
+    padding: 40px;
+}
+
+.card:hover .card-text{
+    display: none;
+}
+
+.card:hover .texto-oculto{
+    display: block;
+}
+
+.texto-oculto{
+    display: none;
+}
+
+footer{
+    margin-top: 100px;
+    height: 400px;
+    background-image: linear-gradient(180deg, #180F4A,#090422,#000000);
+    text-align: center;
+    border-top: 5px solid #FF297B;
+}
+
+.logo-rodape{
+    padding: 100px;
+}
+
+.agencia{
+    font-family: "lobster", cursive;
+    color: white;
+    font-size: 34px;
+}
+
+.whats{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
